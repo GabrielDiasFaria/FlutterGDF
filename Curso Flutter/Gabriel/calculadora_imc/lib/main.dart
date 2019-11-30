@@ -114,7 +114,7 @@ class _HomeState extends State<Home> {
                   _infoText,
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.green, fontSize: 20),
-                )
+                ),
               ],
             ),
           ),
