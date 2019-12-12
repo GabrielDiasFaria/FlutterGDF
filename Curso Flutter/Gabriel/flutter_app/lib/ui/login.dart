@@ -52,8 +52,8 @@ class _LoginAppState extends State<LoginScreen> {
     final loginButon = Material(
       elevation: 5.0,
       borderRadius: BorderRadius.circular(30.0),
-      color: Color(0xff01A0C7),
-      child: MaterialButton(
+      color: Colors.indigo,
+      child: MaterialButton(        
         minWidth: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         onPressed: () {
@@ -62,10 +62,10 @@ class _LoginAppState extends State<LoginScreen> {
             ),
           );
         },
-        child: Text("Login",
+        child: Text("Acessar",            
             textAlign: TextAlign.center,
             style: style.copyWith(
-                color: Colors.white, fontWeight: FontWeight.bold)),
+                color: Colors.white, fontWeight: FontWeight.bold)),                
       ),
     );
 
@@ -84,7 +84,7 @@ class _LoginAppState extends State<LoginScreen> {
                   )
           ),
           child: Padding(
-            padding: const EdgeInsets.only(top: 36, left: 36, right: 36),
+            padding: const EdgeInsets.only(left: 36, right: 36),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
